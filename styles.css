@@ -1,0 +1,145 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0 5px;
+  background-color: #4a5759;
+  color: #edafb8;
+}
+
+header h1 {
+  color: #4a5759;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 50px;
+  font-size: 3.5rem;
+  transition: all 0.3s ease;
+}
+
+header h1 span {
+  color: #b0c4b1;
+}
+
+header h1:hover {
+  color: #edafb8;
+}
+
+header h3 {
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #f7e1d7;
+}
+
+header ul li {
+  margin-left: 20px;
+  font-size: 1.2rem;
+  color: #f7e1d7;
+}
+
+header ul li sup {
+  color: #f7e1d7;
+}
+
+main {
+  margin-top: 25px;
+}
+
+main #result form #inp {
+  display: flex;
+}
+
+main #result form #inp label {
+  font-size: 1.2rem;
+  color: #f7e1d7;
+}
+
+main #result form p {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #b0c4b1;
+  opacity: 0.3;
+}
+
+main #result form #inp2 input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #edafb8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #b0c4b1;
+  color: #4a5759;
+  font-size: 1.2rem;
+}
+
+main #result form #inp2 input[type="button"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f7e1d7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #edafb8;
+  color: #4a5759;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+main #result form #inp2 input[type="button"]:hover {
+  background-color: #f7e1d7;
+}
+
+main #result {
+  padding-bottom: 100px;
+}
+
+main #result #res {
+  display: none;
+}
+
+main #result #res h3 {
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+main #result #res p {
+  padding-top: 25px;
+  font-size: 1.4rem;
+  color: #dedbd2;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+footer {
+  padding: 0 !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  left: 0;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 680px) {
+  header h1 {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+}
