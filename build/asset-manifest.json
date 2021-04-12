@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/3sum-webpage/static/js/main.0f545f46.chunk.js",
+    "main.js.map": "/3sum-webpage/static/js/main.0f545f46.chunk.js.map",
+    "runtime-main.js": "/3sum-webpage/static/js/runtime-main.9233054b.js",
+    "runtime-main.js.map": "/3sum-webpage/static/js/runtime-main.9233054b.js.map",
+    "static/js/2.27a1213c.chunk.js": "/3sum-webpage/static/js/2.27a1213c.chunk.js",
+    "static/js/2.27a1213c.chunk.js.map": "/3sum-webpage/static/js/2.27a1213c.chunk.js.map",
+    "index.html": "/3sum-webpage/index.html",
+    "static/js/2.27a1213c.chunk.js.LICENSE.txt": "/3sum-webpage/static/js/2.27a1213c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9233054b.js",
+    "static/js/2.27a1213c.chunk.js",
+    "static/js/main.0f545f46.chunk.js"
+  ]
+}
